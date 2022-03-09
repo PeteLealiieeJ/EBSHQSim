@@ -1,0 +1,9 @@
+.vscode
+.DS_Store
+[~][$]*
+bin
+
+# INPUT TRAJECTORY DATA
+*.mat
+# LICENSED UNDER MATLAB
+plotcube.m
