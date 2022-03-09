@@ -8,7 +8,9 @@ It is important to note that, although I am the one uploading this repository fo
 - Alireza Pedram, [Tanaka Lab](https://sites.utexas.edu/tanaka/people/)
 
 # Installation and Running
-In terms of installation, [MATLAB](https://www.mathworks.com/products/matlab.html) is the only external requirement for utilization of this repository. Any additional requirements which may have been installed during my original MATLAB installation will be notified when attempting to run - in the MATLAB command line.
+In terms of installation, [MATLAB](https://www.mathworks.com/products/matlab.html) is the primary external appliaction which is required for utilization of this repository. 
+
+For visualization, you will also need to get the plotcube.m file from this [link](https://www.mathworks.com/matlabcentral/fileexchange/15161-plotcube) and moved it to this repository
 
 
 To run the simulation, navigate to the [topSimulateControl.m](./topSimulateControl.m) file. This simulation requires a *.mat file be loaded prior to running. This *.mat file is loaded on line 35, and requires 3 variables of equal time-indexed length:
