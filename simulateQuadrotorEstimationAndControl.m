@@ -164,8 +164,8 @@ for kk=1:N-1
 %   disp(E.statek.rI(1:2)')
 %   disp( R.rIstar(kk,1:2))
   
-  make_meas = ellipse_escape( E.statek.rI(1:2)', E.Pk(1:2,1:2) , ...
-        R.rIstar(kk,1:2) , R.Pthres(:,:,kk));
+  make_meas = ellipse_escape( E.statek.rI(1:2), E.Pk(1:2,1:2) , ...
+        R.rIstar(kk,1:2)' , R.Pthres(:,:,kk));
 
   
   Ck.Pser(1:3,1:3,kk) = E.Pk(1:3,1:3);
